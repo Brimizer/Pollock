@@ -1,6 +1,0 @@
-framework module Pollock {
-  umbrella header "Pods-Pollock-Pollock-umbrella.h"
-
-  export *
-  module * { export * }
-}

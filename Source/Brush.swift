@@ -16,7 +16,7 @@ protocol DrawProtocol: NSCopying {
 
 /// Brush
 /// Subclass this to create custom drawing brushes
-class Brush: NSObject, NSCopying, DrawProtocol {
+public class Brush: NSObject, NSCopying, DrawProtocol {
     
     var width: CGFloat = 4.0
     var color: UIColor = UIColor.blackColor()
@@ -41,7 +41,7 @@ class Brush: NSObject, NSCopying, DrawProtocol {
         self.alpha = alpha
     }
     
-    func copyWithZone(zone: NSZone) -> AnyObject {
+    public func copyWithZone(zone: NSZone) -> AnyObject {
         let copy = Brush(color: color.copyWithZone(zone) as! UIColor, width: width, alpha: alpha)
         return copy
     }

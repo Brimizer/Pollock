@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DrawView: UIView {
+public class DrawView: UIView {
     
     var brush: Brush! {
         didSet {
@@ -25,7 +25,7 @@ class DrawView: UIView {
     internal var canvasView: UIView!
     internal var drawArtView: DrawArtView!
     
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         self.backgroundColor = UIColor.clearColor()

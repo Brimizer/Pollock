@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Pollock"
-  s.version          = "0.1.0"
+  s.version          = "0.0.1"
   s.summary          = "An iOS finger-drawing library."
   s.description      = <<-DESC
                        Pollock is an iOS library that allows you to create
@@ -29,7 +29,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Source/*.swift'
+  s.source_files = 'Source/*'
+
   # s.resource_bundles = {
   #   'Pollock' => ['Pod/Assets/*.png']
   # }
