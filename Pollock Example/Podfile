@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'Pollock Example' do
+	pod "Pollock", :path => "../"
+end

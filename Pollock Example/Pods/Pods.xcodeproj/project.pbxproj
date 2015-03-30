@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32CB517FE9D57555C4D52612 /* Pods-Pollock Example-Pollock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58F25CBD34ED25E9B9E18274 /* Pods-Pollock Example-Pollock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52AF168A653CBF713BE8A747 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AC88E702FA23E20ACBB021 /* Foundation.framework */; };
+		6322E2AB172A07B195E6C839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AC88E702FA23E20ACBB021 /* Foundation.framework */; };
+		6595ADA614766FD8809F67AD /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3841C4B86428DB5C60C7636 /* DrawView.swift */; };
+		79B4D68ED036C81E02E0A046 /* DrawArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A010BD0BFFAC09E91193DE32 /* DrawArtView.swift */; };
+		9A2AB9DD8BC5F492D1D0B2D7 /* Pods-Pollock Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D39742F6BCC19DF4A9F4EE /* Pods-Pollock Example-dummy.m */; };
+		B465D3C82222A70F8F6B1685 /* Brush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F7FE8FFE4903269C8974D5 /* Brush.swift */; };
+		E87C6886592E5E8E0F954CE1 /* Pods-Pollock Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D18A686AD506360EC2E40ACF /* Pods-Pollock Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8F8DAB13BE8508B781AABE5 /* Pods-Pollock Example-Pollock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B640E675DC541795A025417D /* Pods-Pollock Example-Pollock-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5D0C3004AF7F9B7FE023D81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F671CFD3C79BF539D61CA2B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F095735B9B7C8489817E1902;
+			remoteInfo = "Pods-Pollock Example-Pollock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10AC88E702FA23E20ACBB021 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		11E284978B1452534B03F1DE /* Pods-Pollock Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pollock Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12CFD8875A1CBE9C494B87A2 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1A67FE11D7D238F7497D16CC /* Pods-Pollock Example-Pollock-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pollock Example-Pollock-Private.xcconfig"; sourceTree = "<group>"; };
+		3C7DD3904615203AFC2597FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C840A6BB64503AD9D4FAA5F /* Pods-Pollock Example-Pollock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pollock Example-Pollock-prefix.pch"; sourceTree = "<group>"; };
+		43D39742F6BCC19DF4A9F4EE /* Pods-Pollock Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pollock Example-dummy.m"; sourceTree = "<group>"; };
+		4AF6C9058BCDA17A191AD4F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58F25CBD34ED25E9B9E18274 /* Pods-Pollock Example-Pollock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pollock Example-Pollock-umbrella.h"; sourceTree = "<group>"; };
+		654183411043EBDE43F84625 /* Pods-Pollock Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pollock Example-environment.h"; sourceTree = "<group>"; };
+		68DD04ADAEA505BAA3B451CA /* Pods-Pollock Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pollock Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		76F7FE8FFE4903269C8974D5 /* Brush.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Brush.swift; sourceTree = "<group>"; };
+		77E3FC11C91B21F06CD121E5 /* Pods-Pollock Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pollock Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7A2D76F975B6CFC7C1250F0B /* Pods-Pollock Example-Pollock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pollock Example-Pollock.xcconfig"; sourceTree = "<group>"; };
+		A010BD0BFFAC09E91193DE32 /* DrawArtView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DrawArtView.swift; sourceTree = "<group>"; };
+		AE23167B7A00F77560DF2746 /* Pollock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pollock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B640E675DC541795A025417D /* Pods-Pollock Example-Pollock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pollock Example-Pollock-dummy.m"; sourceTree = "<group>"; };
+		B69A577680079308EAA365B6 /* Pods-Pollock Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pollock Example.modulemap"; sourceTree = "<group>"; };
+		C6B4286DE87EEE960EA723B8 /* Pods-Pollock Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pollock Example.release.xcconfig"; sourceTree = "<group>"; };
+		CA77C774E2B0F7D31BC1EE4F /* Pods-Pollock Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pollock Example-frameworks.sh"; sourceTree = "<group>"; };
+		CD1CB7FAE516B747994B9FA2 /* Pods-Pollock Example-Pollock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pollock Example-Pollock.modulemap"; sourceTree = "<group>"; };
+		D18A686AD506360EC2E40ACF /* Pods-Pollock Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pollock Example-umbrella.h"; sourceTree = "<group>"; };
+		E3841C4B86428DB5C60C7636 /* DrawView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		F8054E67A6B0F33ADCC5359E /* Pods_Pollock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pollock_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE110C87EA2155BE75FDCC4B /* Pods-Pollock Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pollock Example-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95C33E98DA128B0A75C00B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52AF168A653CBF713BE8A747 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB4BC2556437EB2116F084D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6322E2AB172A07B195E6C839 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C89E36D6785936EC697840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8054E67A6B0F33ADCC5359E /* Pods_Pollock_Example.framework */,
+				AE23167B7A00F77560DF2746 /* Pollock.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E4F0516DFA7DF8E4A2825E6 /* Pods-Pollock Example */ = {
+			isa = PBXGroup;
+			children = (
+				4AF6C9058BCDA17A191AD4F0 /* Info.plist */,
+				B69A577680079308EAA365B6 /* Pods-Pollock Example.modulemap */,
+				11E284978B1452534B03F1DE /* Pods-Pollock Example-acknowledgements.markdown */,
+				68DD04ADAEA505BAA3B451CA /* Pods-Pollock Example-acknowledgements.plist */,
+				43D39742F6BCC19DF4A9F4EE /* Pods-Pollock Example-dummy.m */,
+				654183411043EBDE43F84625 /* Pods-Pollock Example-environment.h */,
+				CA77C774E2B0F7D31BC1EE4F /* Pods-Pollock Example-frameworks.sh */,
+				FE110C87EA2155BE75FDCC4B /* Pods-Pollock Example-resources.sh */,
+				D18A686AD506360EC2E40ACF /* Pods-Pollock Example-umbrella.h */,
+				77E3FC11C91B21F06CD121E5 /* Pods-Pollock Example.debug.xcconfig */,
+				C6B4286DE87EEE960EA723B8 /* Pods-Pollock Example.release.xcconfig */,
+			);
+			name = "Pods-Pollock Example";
+			path = "Target Support Files/Pods-Pollock Example";
+			sourceTree = "<group>";
+		};
+		21BBEEA0B3A2F54EA0318703 /* Pollock */ = {
+			isa = PBXGroup;
+			children = (
+				3504F2D920FE1D3CB1E9A886 /* Source */,
+				78D2E31DECE3C9943024550C /* Support Files */,
+			);
+			name = Pollock;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		24A8FD254BBC3B2C481B9144 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				10AC88E702FA23E20ACBB021 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3504F2D920FE1D3CB1E9A886 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				76F7FE8FFE4903269C8974D5 /* Brush.swift */,
+				A010BD0BFFAC09E91193DE32 /* DrawArtView.swift */,
+				E3841C4B86428DB5C60C7636 /* DrawView.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		52374C53AB706812A706B46C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E4F0516DFA7DF8E4A2825E6 /* Pods-Pollock Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		78D2E31DECE3C9943024550C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C7DD3904615203AFC2597FB /* Info.plist */,
+				CD1CB7FAE516B747994B9FA2 /* Pods-Pollock Example-Pollock.modulemap */,
+				7A2D76F975B6CFC7C1250F0B /* Pods-Pollock Example-Pollock.xcconfig */,
+				1A67FE11D7D238F7497D16CC /* Pods-Pollock Example-Pollock-Private.xcconfig */,
+				B640E675DC541795A025417D /* Pods-Pollock Example-Pollock-dummy.m */,
+				3C840A6BB64503AD9D4FAA5F /* Pods-Pollock Example-Pollock-prefix.pch */,
+				58F25CBD34ED25E9B9E18274 /* Pods-Pollock Example-Pollock-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Pollock Example/Pods/Target Support Files/Pods-Pollock Example-Pollock";
+			sourceTree = "<group>";
+		};
+		8224777C983C0E2CE5BDC9B0 = {
+			isa = PBXGroup;
+			children = (
+				12CFD8875A1CBE9C494B87A2 /* Podfile */,
+				9C2F390192FFA47FFAF33723 /* Development Pods */,
+				A7331C27FA4BFC1A32F73677 /* Frameworks */,
+				12C89E36D6785936EC697840 /* Products */,
+				52374C53AB706812A706B46C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9C2F390192FFA47FFAF33723 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21BBEEA0B3A2F54EA0318703 /* Pollock */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A7331C27FA4BFC1A32F73677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24A8FD254BBC3B2C481B9144 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C417FE57291B2066F420EF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87C6886592E5E8E0F954CE1 /* Pods-Pollock Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7BA36EC43A7B000F104C9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CB517FE9D57555C4D52612 /* Pods-Pollock Example-Pollock-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8EEF74E00CE08BA85FC3673A /* Pods-Pollock Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80BD044C0C39D4703323251 /* Build configuration list for PBXNativeTarget "Pods-Pollock Example" */;
+			buildPhases = (
+				EA1B23CDD11C69A02E2FB0B7 /* Sources */,
+				EFB4BC2556437EB2116F084D /* Frameworks */,
+				2C417FE57291B2066F420EF7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8029748500016AE1CF3D4811 /* PBXTargetDependency */,
+			);
+			name = "Pods-Pollock Example";
+			productName = "Pods-Pollock Example";
+			productReference = F8054E67A6B0F33ADCC5359E /* Pods_Pollock_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F095735B9B7C8489817E1902 /* Pods-Pollock Example-Pollock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334197F6966AD5490DE11753 /* Build configuration list for PBXNativeTarget "Pods-Pollock Example-Pollock" */;
+			buildPhases = (
+				DE7610062AB74B35F6533197 /* Sources */,
+				95C33E98DA128B0A75C00B7F /* Frameworks */,
+				AF7BA36EC43A7B000F104C9D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Pollock Example-Pollock";
+			productName = "Pods-Pollock Example-Pollock";
+			productReference = AE23167B7A00F77560DF2746 /* Pollock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F671CFD3C79BF539D61CA2B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = AFC555BCC5557DB2B7C56AC7 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8224777C983C0E2CE5BDC9B0;
+			productRefGroup = 12C89E36D6785936EC697840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EEF74E00CE08BA85FC3673A /* Pods-Pollock Example */,
+				F095735B9B7C8489817E1902 /* Pods-Pollock Example-Pollock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE7610062AB74B35F6533197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B465D3C82222A70F8F6B1685 /* Brush.swift in Sources */,
+				79B4D68ED036C81E02E0A046 /* DrawArtView.swift in Sources */,
+				6595ADA614766FD8809F67AD /* DrawView.swift in Sources */,
+				E8F8DAB13BE8508B781AABE5 /* Pods-Pollock Example-Pollock-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1B23CDD11C69A02E2FB0B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2AB9DD8BC5F492D1D0B2D7 /* Pods-Pollock Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8029748500016AE1CF3D4811 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Pollock Example-Pollock";
+			target = F095735B9B7C8489817E1902 /* Pods-Pollock Example-Pollock */;
+			targetProxy = F5D0C3004AF7F9B7FE023D81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		109CECDA3FEDFAFDBB0B7665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A67FE11D7D238F7497D16CC /* Pods-Pollock Example-Pollock-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Pollock Example-Pollock/Pods-Pollock Example-Pollock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pollock Example-Pollock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Pollock Example-Pollock/Pods-Pollock Example-Pollock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Pollock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B42F6B18067FF623ABF8639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		43237F6E7B35006C94BAF64B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E3FC11C91B21F06CD121E5 /* Pods-Pollock Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pollock Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Pollock Example/Pods-Pollock Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Pollock_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5361F052E4437666F56C8ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B4286DE87EEE960EA723B8 /* Pods-Pollock Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pollock Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Pollock Example/Pods-Pollock Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Pollock_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80700CC935FE93C85F4B2383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5B2E6003705F6AFEBDEB2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A67FE11D7D238F7497D16CC /* Pods-Pollock Example-Pollock-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Pollock Example-Pollock/Pods-Pollock Example-Pollock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pollock Example-Pollock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Pollock Example-Pollock/Pods-Pollock Example-Pollock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Pollock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		334197F6966AD5490DE11753 /* Build configuration list for PBXNativeTarget "Pods-Pollock Example-Pollock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109CECDA3FEDFAFDBB0B7665 /* Debug */,
+				D5B2E6003705F6AFEBDEB2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC555BCC5557DB2B7C56AC7 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B42F6B18067FF623ABF8639 /* Debug */,
+				80700CC935FE93C85F4B2383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80BD044C0C39D4703323251 /* Build configuration list for PBXNativeTarget "Pods-Pollock Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43237F6E7B35006C94BAF64B /* Debug */,
+				5361F052E4437666F56C8ED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F671CFD3C79BF539D61CA2B2 /* Project object */;
+}

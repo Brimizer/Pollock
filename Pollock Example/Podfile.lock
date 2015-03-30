@@ -1,0 +1,14 @@
+PODS:
+  - Pollock (0.0.1)
+
+DEPENDENCIES:
+  - Pollock (from `../`)
+
+EXTERNAL SOURCES:
+  Pollock:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Pollock: ca2059265891bb13e194939203dfe02faa186d64
+
+COCOAPODS: 0.36.1

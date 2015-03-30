@@ -18,9 +18,9 @@ protocol DrawProtocol: NSCopying {
 /// Subclass this to create custom drawing brushes
 public class Brush: NSObject, NSCopying, DrawProtocol {
     
-    var width: CGFloat = 4.0
-    var color: UIColor = UIColor.blackColor()
-    var alpha: CGFloat = 1.0
+    public var width: CGFloat = 4.0
+    public var color: UIColor = UIColor.blackColor()
+    public var alpha: CGFloat = 1.0
     
     // These variables help implement this specific brush
     private var path: UIBezierPath = UIBezierPath()
@@ -29,11 +29,11 @@ public class Brush: NSObject, NSCopying, DrawProtocol {
     private var previous: CGPoint?
     private var current: CGPoint?
     
-    override init() {
+    public override init() {
         super.init()
     }
     
-    convenience init(color: UIColor, width: CGFloat, alpha: CGFloat) {
+    public convenience init(color: UIColor, width: CGFloat, alpha: CGFloat) {
         self.init()
         
         self.color = color

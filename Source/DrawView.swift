@@ -10,20 +10,20 @@ import UIKit
 
 public class DrawView: UIView {
     
-    var brush: Brush! {
+    public var brush: Brush = Brush() {
         didSet {
             self.drawArtView.brush = brush
         }
     }
     
-    var canvasColor: UIColor = UIColor.whiteColor() {
+    public var canvasColor: UIColor = UIColor.whiteColor() {
         didSet {
             self.canvasView.backgroundColor = canvasColor
         }
     }
     
-    internal var canvasView: UIView!
-    internal var drawArtView: DrawArtView!
+    private var canvasView: UIView!
+    private var drawArtView: DrawArtView = DrawArtView()
     
     required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -55,8 +55,8 @@ public class DrawView: UIView {
     }
     
     func setupDrawArtView() {
-        drawArtView = DrawArtView()
         drawArtView.setTranslatesAutoresizingMaskIntoConstraints(false)
+        drawArtView.brush = self.brush
         
         self.addSubview(drawArtView)
         
@@ -74,15 +74,15 @@ public class DrawView: UIView {
         self.addConstraint(bottomConstraint)
     }
     
-    func reset() {
+    public func reset() {
         drawArtView.reset()
     }
     
-    func undo() {
+    public func undo() {
         drawArtView.undo()
     }
     
-    func undo(count: Int) {
+    public func undo(count: Int) {
         drawArtView.undo(count)
     }
 }
