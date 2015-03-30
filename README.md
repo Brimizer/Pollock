@@ -1,9 +1,10 @@
 # Pollock
 
 [![CI Status](http://img.shields.io/travis/Daniel Brim/Pollock.svg?style=flat)](https://travis-ci.org/Daniel Brim/Pollock)
-[![Version](https://img.shields.io/cocoapods/v/Pollock.svg?style=flat)](http://cocoapods.org/pods/Pollock)
+
+<!-- [![Version](https://img.shields.io/cocoapods/v/Pollock.svg?style=flat)](http://cocoapods.org/pods/Pollock)
 [![License](https://img.shields.io/cocoapods/l/Pollock.svg?style=flat)](http://cocoapods.org/pods/Pollock)
-[![Platform](https://img.shields.io/cocoapods/p/Pollock.svg?style=flat)](http://cocoapods.org/pods/Pollock)
+[![Platform](https://img.shields.io/cocoapods/p/Pollock.svg?style=flat)](http://cocoapods.org/pods/Pollock) -->
 
 ## Usage
 
