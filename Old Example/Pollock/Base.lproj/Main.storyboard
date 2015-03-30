@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7525" systemVersion="14D72i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7516"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="DBViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N2e-MO-Gbq" customClass="DrawView" customModule="Pollock" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vGa-ml-swC" customClass="DBCircularView">
+                                <rect key="frame" x="544" y="396" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.92941176470588238" green="0.43137254901960786" blue="0.56470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="QT4-fG-qBL"/>
+                                    <constraint firstAttribute="height" constant="40" id="lvD-aE-6yj"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="za9-vs-NtP" appends="YES" id="Bc7-O4-2lM"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Muv-Yz-ufA" customClass="DBCircularView">
+                                <rect key="frame" x="544" y="348" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.99607843137254903" green="0.79607843137254897" blue="0.039215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="JIj-aE-0hD"/>
+                                    <constraint firstAttribute="width" constant="40" id="Nqr-rw-eFj"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="DRu-bC-9CT" appends="YES" id="hhQ-lZ-j70"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cfJ-nj-htL" customClass="DBCircularView">
+                                <rect key="frame" x="544" y="492" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.51764705882352946" green="0.0" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="BxO-io-yxS"/>
+                                    <constraint firstAttribute="width" constant="40" id="gIp-8f-pB6"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="dpd-lj-m0p" appends="YES" id="2EX-ST-6uq"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GI1-Sv-cUc" customClass="DBCircularView">
+                                <rect key="frame" x="544" y="540" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.082352941176470587" green="0.16862745098039217" blue="0.51372549019607838" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="34W-Ps-CEL"/>
+                                    <constraint firstAttribute="width" constant="40" id="3iP-O3-3JV"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="XeZ-RY-mMY" appends="YES" id="7Qs-0s-KeG"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ahM-U2-4vi" customClass="DBCircularView">
+                                <rect key="frame" x="544" y="444" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.90588235294117647" green="0.078431372549019607" blue="0.10588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="2TW-MF-l89"/>
+                                    <constraint firstAttribute="width" constant="40" id="x2y-3F-gd7"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="HgM-GG-cax" appends="YES" id="1po-nv-0vA"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rf6-l6-GQT" customClass="DBCircularView">
+                                <rect key="frame" x="544" y="300" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.066666666666666666" green="0.54117647058823526" blue="0.83137254901960789" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ZkN-Hq-rD6"/>
+                                    <constraint firstAttribute="width" constant="40" id="ztg-zF-XRJ"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="r0T-Gq-Fv9" appends="YES" id="dm1-GS-gui"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RFD-WP-nTJ" customClass="DBCircularView">
+                                <rect key="frame" x="544" y="252" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.054901960784313725" green="0.45882352941176469" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="UQx-5Q-8BL"/>
+                                    <constraint firstAttribute="width" constant="40" id="xSG-BW-T14"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gPs-ga-lVQ" appends="YES" id="sR2-2P-XDV"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="N2e-MO-Gbq" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="-20" id="5ae-x1-yHG"/>
+                            <constraint firstItem="ahM-U2-4vi" firstAttribute="leading" secondItem="cfJ-nj-htL" secondAttribute="leading" id="6hD-FO-ykk"/>
+                            <constraint firstItem="rf6-l6-GQT" firstAttribute="top" secondItem="RFD-WP-nTJ" secondAttribute="bottom" constant="8" id="Ddr-SX-iOc"/>
+                            <constraint firstItem="vGa-ml-swC" firstAttribute="leading" secondItem="ahM-U2-4vi" secondAttribute="leading" id="EFg-U2-H6w"/>
+                            <constraint firstItem="RFD-WP-nTJ" firstAttribute="leading" secondItem="rf6-l6-GQT" secondAttribute="leading" id="LpY-fo-LcW"/>
+                            <constraint firstItem="N2e-MO-Gbq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="MEB-hC-9dz"/>
+                            <constraint firstItem="Muv-Yz-ufA" firstAttribute="leading" secondItem="rf6-l6-GQT" secondAttribute="leading" id="PFp-II-8yN"/>
+                            <constraint firstItem="Muv-Yz-ufA" firstAttribute="top" secondItem="rf6-l6-GQT" secondAttribute="bottom" constant="8" id="QlE-V4-it4"/>
+                            <constraint firstItem="cfJ-nj-htL" firstAttribute="top" secondItem="ahM-U2-4vi" secondAttribute="bottom" constant="8" id="WNN-7u-HA8"/>
+                            <constraint firstItem="vGa-ml-swC" firstAttribute="top" secondItem="Muv-Yz-ufA" secondAttribute="bottom" constant="8" id="YBg-96-jxm"/>
+                            <constraint firstItem="GI1-Sv-cUc" firstAttribute="top" secondItem="cfJ-nj-htL" secondAttribute="bottom" constant="8" id="bnz-kH-q40"/>
+                            <constraint firstItem="GI1-Sv-cUc" firstAttribute="leading" secondItem="cfJ-nj-htL" secondAttribute="leading" id="iHK-G0-oQF"/>
+                            <constraint firstItem="ahM-U2-4vi" firstAttribute="top" secondItem="vGa-ml-swC" secondAttribute="bottom" constant="8" id="jAR-8M-97S"/>
+                            <constraint firstItem="GI1-Sv-cUc" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="q95-28-EJQ"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="GI1-Sv-cUc" secondAttribute="bottom" constant="20" id="qc2-th-DPM"/>
+                            <constraint firstItem="vGa-ml-swC" firstAttribute="leading" secondItem="Muv-Yz-ufA" secondAttribute="leading" id="rgX-XI-uHS"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="N2e-MO-Gbq" secondAttribute="bottom" id="rk3-U7-bNO"/>
+                            <constraint firstItem="N2e-MO-Gbq" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" constant="16" id="wAh-i1-clR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="drawView" destination="N2e-MO-Gbq" id="0XV-SW-8dD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="gPs-ga-lVQ">
+                    <connections>
+                        <action selector="colorPressed:" destination="vXZ-lx-hvc" id="3Yh-AG-l7q"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="r0T-Gq-Fv9">
+                    <connections>
+                        <action selector="colorPressed:" destination="vXZ-lx-hvc" id="1hD-B8-Qz9"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="DRu-bC-9CT">
+                    <connections>
+                        <action selector="colorPressed:" destination="vXZ-lx-hvc" id="a4J-zh-zoC"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="za9-vs-NtP">
+                    <connections>
+                        <action selector="colorPressed:" destination="vXZ-lx-hvc" id="eHH-AD-ZaV"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="HgM-GG-cax">
+                    <connections>
+                        <action selector="colorPressed:" destination="vXZ-lx-hvc" id="0sa-dV-XjE"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="dpd-lj-m0p">
+                    <connections>
+                        <action selector="colorPressed:" destination="vXZ-lx-hvc" id="Xhg-L6-EDi"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="XeZ-RY-mMY">
+                    <connections>
+                        <action selector="colorPressed:" destination="vXZ-lx-hvc" id="GqQ-Bz-1Ow"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="811.875" y="305.28169014084506"/>
+        </scene>
+    </scenes>
+</document>

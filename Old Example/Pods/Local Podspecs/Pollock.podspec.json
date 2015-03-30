@@ -1,0 +1,21 @@
+{
+  "name": "Pollock",
+  "version": "0.1.0",
+  "summary": "An iOS finger-drawing library.",
+  "description": "                       Pollock is an iOS library that allows you to create\n                       apps with fingerpaint without having to worry about\n                       touch events, view management, or brush creation.\n\n                       Use one of the provided brushes or create your own\n                       for exceptional art.\n",
+  "homepage": "https://github.com/brimizer/Pollock",
+  "license": "MIT",
+  "authors": {
+    "Daniel Brim": "brimizer@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/brimizer/Pollock.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/brimizer",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Source/*.swift"
+}
