@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'Pollock', :exclusive => true do
+  pod "Pollock", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "Pollock", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
